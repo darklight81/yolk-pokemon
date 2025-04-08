@@ -1,0 +1,49 @@
+.contentWrapper {
+    &__searchContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        margin: 2rem auto;
+        width: fit-content;
+      }
+
+    &__toggleAllButton {
+        padding: 0.75rem 1rem;
+        font-size: 1rem;
+        font-weight: 500;
+        color: white;
+        background-color: #6b7280;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+      
+        &:hover {
+          background-color: #4b5563;
+        }
+    }
+
+    &__loadMoreContainer {
+        display: flex;
+        justify-content: center;
+        padding: 2rem 0;
+      }
+
+    &__loadMoreButton {
+        padding: 0.8rem 1.5rem;
+        width: 10rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: white;
+        background-color: #3b82f6;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+        &:hover {
+          background-color: #2563eb;
+        }
+      }
+
+}
