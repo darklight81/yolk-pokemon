@@ -9,6 +9,8 @@ The app loads pokemon from `pokeapi.co` and shows them as Pokemon cards.
 
 It uses Next.js. For the CSS I decided to go with SASS.
 
-Run the project with `npm run dev`
-
-Go to `localhost:3000` to see the results
+### How to run the app
+- Clone the repo
+- Install dependecies `npm install`
+- Run the app `npm run dev`
+- Go to `localhost:3000` to see the results
