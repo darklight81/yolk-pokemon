@@ -1,6 +1,5 @@
 "use client";
 import styles from "./SearchInput.module.scss";
-import { useState } from "react";
 
 interface SearchInputProps {
     onSearch: (searchTerm: string) => void;
